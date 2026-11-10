@@ -1,0 +1,7 @@
+[project]
+name = "valoanalyst"
+version = "0.1.0"
+description = "AI review of one VALORANT match, grounded in computed stats"
+requires-python = ">=3.11"
+# pinned below 1.0: 1.x moves to httpx2 and changes APIs; upgrade deliberately
+dependencies = ["anthropic>=0.95,<1"]
